@@ -69,7 +69,7 @@ pkg_postinst(){
 	elog "For dev-vcs/bzr you need to enable 'bazaar' useflag."
 	elog
 	elog "You may want to adjust your /etc/portage/bashrc"
-	elog "see the example file in /usr/share/doc/${PF}/examples"
+	elog "see the example file in /usr/share/doc/${PF}/bashrc.examples"
 	elog
 	elog "To initialise your etc-dir as a repository run:"
 	elog "${PN} init -d /etc"
